@@ -30,7 +30,8 @@ This application requires 1.JavaScript, 2.Node.JS (version 16, not the latest) a
 First you need to load your data onto MySQL server. Go to Command Line and go to the folder of this application which contains db folder and index.js. Once you're in the folder, type "mysql -u root" (if you get a server connection error, type "mysql.server start" first) and then you're ready to use MySQL. In MySQL, type "source db/schema.sql to create a database and you can exit MySQL by typing "quit" and hit Enter button. Then type "npm run seed" in Command Line to seed the data.  
 
 ### Step 2. Data Management
-In Command Line, type "node index.js". It takes you to the list of actions. Choose the option you'd like. Keep in mind the following rules:
+In Command Line, type "node server.js" and then you'll see a message ""
+It takes you to the list of actions. Choose the option you'd like. Keep in mind the following rules:
 * Name of a department cannot be longer than 30 characters
 * Name of a role/title cannot be longer than 30 characters
 * First and last names of an employee cannot be longer than 30 characters
