@@ -81,11 +81,13 @@ Copy the following files and folder to your computer and test this application:
 |   ├── category-seeds.js
 |   ├── index.js
 |   ├── product-seeds.js
-|   ├── schema.js
-|   └── seeds.js
-├── index.js          
-└── package.json
+|   ├── product-tag-seeds.js
+|   └── tag-seeds.js
+├── .env         
+├── package.json  
+└── server.js
 ``` 
+.env: make your own env file with DB_NAME='ecommerce_db' DB_USER='root' DB_PASSWORD='your own password'
 
 ## SCREENSHOTS
 ![image](https://user-images.githubusercontent.com/121307266/219885075-c96eae61-6122-489e-9bc2-903f487dd004.png)
