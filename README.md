@@ -87,7 +87,7 @@ Copy the following files and folder to your computer and test this application:
 ├── package.json  
 └── server.js
 ``` 
-.env: make your own env file with DB_NAME='ecommerce_db' DB_USER='root' DB_PASSWORD='your own password'
+.env: make your own env file with DB_NAME='ecommerce_db' DB_USER='your user name' DB_PASSWORD='your own password'
 
 ## SCREENSHOTS
 ![image](https://user-images.githubusercontent.com/121307266/221103637-520c1d98-bf62-470f-8519-6a8afabad9a4.png)
