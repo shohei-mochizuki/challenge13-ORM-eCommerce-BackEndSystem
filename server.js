@@ -1,7 +1,7 @@
-const express = require('express');
+// Import node.js libraries
+const express = require('express'); // express: HTTP-based RESTful api
 const routes = require('./routes');
-// import sequelize connection
-const sequelize = require('./config/connection');
+const sequelize = require('./config/connection'); // sequelize: Connection to MySQL2
 
 const app = express();
 const PORT = process.env.PORT || 3001;
