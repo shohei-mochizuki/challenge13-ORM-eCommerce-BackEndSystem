@@ -30,8 +30,8 @@ router.get('/:id', async (req, res) => {
   }
 });
 
+// POST - Add a new tag
 router.post('/', async (req, res) => {
-  // create a new tag
   try {
     const tagData = await Tag.create(req.body);
     res.status(200).json(tagData);
@@ -40,8 +40,8 @@ router.post('/', async (req, res) => {
   }
 });
 
+// PUT - Update an exiting tag
 router.put('/:id', async (req, res) => {
-  // update a tag's name by its `id` value
   try {
     const tagData = await Tag.update(req.body, {
       where: {
@@ -58,8 +58,8 @@ router.put('/:id', async (req, res) => {
   }
 });
 
+// DELETE - Delete a tag
 router.delete('/:id', async (req, res) => {
-  // delete on tag by its `id` value
   try {
     const tagData = await Tag.destroy({
       where: {
