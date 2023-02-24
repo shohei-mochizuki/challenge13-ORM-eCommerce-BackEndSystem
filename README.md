@@ -94,8 +94,8 @@ Copy the following files and folder to your computer and test this application:
 ![image](https://user-images.githubusercontent.com/121307266/221103743-a7625722-9151-45ef-9770-3d6dcf517032.png)
 
 ## DEMO
-[Demo video](https://watch.screencastify.com/v/VAFVoAhbQx7CZZUdBAsi)<br>
-[Demo video (another link)](https://drive.google.com/file/d/1V09iyjXJJnqyJbNLETQbALbLJJWeArwJ/view)
+[Demo video](https://watch.screencastify.com/v/7AoV8iMDubhwxXQWCH0i)<br>
+[Demo video (another link)](https://drive.google.com/file/d/1mPvykLB6gaKpt32RxZ0M6bevc5pHdHPN/view)
 
 ## QUESTIONS 
 If you have any questions, feel free to reach out to me!<br>
