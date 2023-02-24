@@ -40,7 +40,7 @@ In Command Line, type "node server.js" and then you'll see a message "App listen
 * POST: to add new data 
 * PUT: to update existing data (you need to add an ID number to the path to specify the item)
 * DELETE: to delete data (you need to add an ID number to the path to specify the item)
-#### INPUTS FOR POST & PUT
+#### Inputs for POST and PUT
 * Category: {"category_name": "string"}
 * Tag: {"tag_name": "string"}
 * Product: {"product_name": "", "price": decimal, "stock": integer, "category_id": integer, "tagIds": [integer, integer, ...]}
