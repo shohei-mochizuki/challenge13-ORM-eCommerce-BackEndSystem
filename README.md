@@ -19,7 +19,7 @@ This application enables you to create and manage a backend system for a e-comme
 [QUESTIONS](#questions)
 
 ## INSTALLATION 
-This application requires 1.JavaScript, 2.Node.JS (version 16, not the latest) and 3.Node package manager to run. In a blank folder, put necessary files (refer to the TESTS section for the details) and open the command line. In the command line, move to this folder and then type "npm install". Make sure that a folder called "node_modules" and a file called package-lock.json are created. Following libraries are used:
+This application requires 1.JavaScript, 2.Node.JS (version 16, not the latest), 3.Node package manager and 4.Insomnia to run. In a blank folder, put necessary files (refer to the TESTS section for the details) and open the command line. In the command line, move to this folder and then type "npm install". Make sure that a folder called "node_modules" and a file called package-lock.json are created. Following libraries are used:
 * [express](https://www.npmjs.com/package/express)
 * [mysql2](https://www.npmjs.com/package/mysql2)
 * [sequelize](https://www.npmjs.com/package/sequelize)
@@ -30,7 +30,7 @@ This application requires 1.JavaScript, 2.Node.JS (version 16, not the latest) a
 First you need to load your data onto MySQL server. Go to Command Line and go to the folder of this application which contains db folder and index.js. Once you're in the folder, type "mysql -u root" (if you get a server connection error, type "mysql.server start" first) and then you're ready to use MySQL. In MySQL, type "source db/schema.sql to create a database and you can exit MySQL by typing "quit" and hit Enter button. Then type "npm run seed" in Command Line to seed the data.  
 
 ### Step 2. Data Management
-In Command Line, type "node server.js" and then you'll see a message ""
+In Command Line, type "node server.js" and then you'll see a message "App listening on PORT 3001!". Go to Insomnia
 It takes you to the list of actions. Choose the option you'd like. Keep in mind the following rules:
 * Name of a department cannot be longer than 30 characters
 * Name of a role/title cannot be longer than 30 characters
