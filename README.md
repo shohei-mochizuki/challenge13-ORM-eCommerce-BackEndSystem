@@ -6,9 +6,7 @@ This application enables you to create and manage a backend system for a e-comme
 * View list of categories (and associated products), list of tags (and associated products) or list of products (and an associated category and tags)
 * View information of specific category, tag or product
 * Update information on specific category, tag or product 
-* Add new data (a department, a role or an employee)
-* Update data (Role or Manager of an employee)
-* Delete data (A department, a role or an employee)
+* Delete specific category, tag or product from the database
 
 ## TABLE OF CONTENTS
 [INSTALLATION](#installation)<br>
