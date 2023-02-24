@@ -66,16 +66,23 @@ Copy the following files and folder to your computer and test this application:
 |   └── schema.sql
 ├── models/
 |   ├── Category.js
-|   ├── schema.sql
-|   ├── schema.sql
-|   ├── schema.sql
-|   └── seeds.sql
-├── config/
-|   ├── schema.sql
-|   └── seeds.sql
-├── config/
-|   ├── schema.sql
-|   └── seeds.sql
+|   ├── index.js
+|   ├── Product.js
+|   ├── ProductTag.js
+|   └── Tag.js
+├── routes/
+|   ├── api/
+|   |   ├── category-routes.js
+|   |   ├── index.js
+|   |   ├── product-routes.js
+|   |   └── tag-routes.js
+|   └── index.js
+├── seeds/
+|   ├── category-seeds.js
+|   ├── index.js
+|   ├── product-seeds.js
+|   ├── schema.js
+|   └── seeds.js
 ├── index.js          
 └── package.json
 ``` 
