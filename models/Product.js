@@ -1,15 +1,16 @@
-// import important parts of sequelize library
+// Import important parts of sequelize library
 const { Model, DataTypes } = require('sequelize');
-// import our database connection from config.js
+
+// Import our database connection from connection.js
 const sequelize = require('../config/connection');
 
 // Initialize Product model (table) by extending off Sequelize's Model class
 class Product extends Model {}
 
-// set up fields and rules for Product model
+// Set up fields and rules for Product model
 Product.init(
   {
-    // define columns
+    // Define columns following the requirements/instructions
     id: {
       type: DataTypes.INTEGER,
       allowNull: false,
@@ -31,7 +32,7 @@ Product.init(
       defaultValue: 10,
       inNumeric: true,
     },
-    category_id: {
+    category_id: { // Foreign key
       type: DataTypes.INTEGER,
       references: {
         model: 'category',
