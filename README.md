@@ -60,7 +60,20 @@ Feel free to develop this application by forking the GitHub repository and sendi
 Copy the following files and folder to your computer and test this application:
 ```md
 .
+├── config/
+|   └── connection.js
 ├── db/
+|   └── schema.sql
+├── models/
+|   ├── Category.js
+|   ├── schema.sql
+|   ├── schema.sql
+|   ├── schema.sql
+|   └── seeds.sql
+├── config/
+|   ├── schema.sql
+|   └── seeds.sql
+├── config/
 |   ├── schema.sql
 |   └── seeds.sql
 ├── index.js          
