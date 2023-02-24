@@ -27,7 +27,7 @@ This application requires 1.JavaScript, 2.Node.JS (version 16, not the latest) a
 
 ## USAGE 
 ### Step 1. Data Preparation 
-First you need to load your data onto MySQL server. Go to Command Line and go to the folder of this application which contains db folder and index.js. Once you're in the folder, type "mysql -u root" (if you get a server connection error, type "mysql.server start" first) and then you're ready to use MySQL. In MySQL, type "source db/schema.sql;" first and then "source db/seeds.sql;". Now this database is available in MySQL and you can exit MySQL by typing "quit" and hit Enter button.  
+First you need to load your data onto MySQL server. Go to Command Line and go to the folder of this application which contains db folder and index.js. Once you're in the folder, type "mysql -u root" (if you get a server connection error, type "mysql.server start" first) and then you're ready to use MySQL. In MySQL, type "source db/schema.sql to create a database and you can exit MySQL by typing "quit" and hit Enter button.  
 
 ### Step 2. Data Management
 In Command Line, type "node index.js". It takes you to the list of actions. Choose the option you'd like. Keep in mind the following rules:
