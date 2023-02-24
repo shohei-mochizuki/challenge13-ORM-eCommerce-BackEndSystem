@@ -1,10 +1,11 @@
-# Challenge 12 - SQL : Employment Data Controller [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+# Challenge 13 - ORM : E-Commerce Back End System [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
 ## DESCRIPTION 
-This application enables you to create and manage employment related data using Command Line! You can do the following actions:
-* View general data (List of departments, roles or employees)
-* View specific data (List of employees by a manager or by a department)
-* View total budget per department 
+This application enables you to create and manage a backend system for a e-commerce website! You can do the following actions:
+* Create a database which contains data of products, product categories and product tags 
+* View list of categories (and associated products), list of tags (and associated products) or list of products (and an associated category and tags)
+* View information of specific category, tag or product
+* Update information on specific category, tag or product 
 * Add new data (a department, a role or an employee)
 * Update data (Role or Manager of an employee)
 * Delete data (A department, a role or an employee)
