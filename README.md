@@ -20,9 +20,10 @@ This application enables you to create and manage a backend system for a e-comme
 
 ## INSTALLATION 
 This application requires 1.JavaScript, 2.Node.JS (version 16, not the latest) and 3.Node package manager to run. In a blank folder, put necessary files (refer to the TESTS section for the details) and open the command line. In the command line, move to this folder and then type "npm install". Make sure that a folder called "node_modules" and a file called package-lock.json are created. Following libraries are used:
-* 
+* express
 * mysql2
-* console.table
+* sequelize
+* dotenv
 
 ## USAGE 
 ### Step 1. Data Preparation 
